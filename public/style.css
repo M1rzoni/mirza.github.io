@@ -277,7 +277,7 @@ home-content-container{
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 93rem;
+    max-width: 100%;
 }
 
 .myName, .email , .msg{
@@ -354,11 +354,18 @@ home-content-container{
   transform: translateY(0);
 }
 
-.img-container img{
+.img-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     height: 2.5rem;
     margin: 2rem 0 5px 5px;
+    align-items: center;
+}
+
+.img-container img{
+    height: 2.2rem;
+    margin-left: 1rem;
 }
 
 .footer{
@@ -506,19 +513,6 @@ home-content-container{
         transform: scale(1);
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ::-webkit-scrollbar{
     width: 8px;

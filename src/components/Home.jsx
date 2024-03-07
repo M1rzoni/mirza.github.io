@@ -13,7 +13,6 @@ function Home(){
             <button className="button-6">Dowload CV</button>
             </a>
           </div>
-
             <div className="icon-container">
                 <img alt="myPhoto" src="https://avatars.githubusercontent.com/u/113027159?s=400&u=da13b18aec7ae552f6796b5e2387335ce24707ff&v=4"></img>
             </div>

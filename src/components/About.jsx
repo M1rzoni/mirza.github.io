@@ -65,7 +65,7 @@ function About(props){
                     <img alt= "back-end-icon" src="https://cdn-icons-png.flaticon.com/128/1055/1055683.png"></img>
                     <div className="content">
                       <h1>Development Skills and Tools</h1>
-                      <p>Git, GitHub, Linux</p>
+                      <p>Git, GitHub, Linux, API</p>
                     </div>
                      </div>
                  </div>

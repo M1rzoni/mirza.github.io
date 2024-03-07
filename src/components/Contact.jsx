@@ -64,9 +64,9 @@ function Contact() {
                 </form>
                 <div className="img-container">
                   <div>
-                    <a href="https://www.youtube.com/" rel="noreferrer" target="_blank"><img alt="instagram" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"></img></a>
+                    <a href="https://www.instagram.com/m.i.r.z.a_._/" rel="noreferrer" target="_blank"><img alt="instagram" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"></img></a>
                     <a href="https://github.com/M1rzoni" rel="noreferrer" target="_blank"><img alt="github" src="https://cdn-icons-png.flaticon.com/128/3291/3291695.png"></img></a>
-                    <a href="https://www.youtube.com/" rel="noreferrer" target="_blank"><img alt="linkdin" src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"></img></a>
+                    <a href="https://www.linkedin.com/in/mirza-%C5%A1abanovic-06b557217/" rel="noreferrer" target="_blank"><img alt="linkdin" src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"></img></a>
                     </div>
                 </div>
             </div>
