@@ -248,6 +248,7 @@ home-content-container{
 .main-contact-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .main-contact-container h1{
@@ -256,8 +257,21 @@ home-content-container{
     font-size: 2rem;
 }
 
-@media screen and (min-width: 1300px){
+.title-container{
+    text-align: center;
+}
 
+.title-container p {
+    margin-top: 1rem;
+    color: white;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1300px){
     .content h1{
         font-size: 1.5rem;
     }
