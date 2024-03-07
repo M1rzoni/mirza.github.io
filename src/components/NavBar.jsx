@@ -41,6 +41,7 @@ function NavBar() {
                  <a href="#home"  onClick={() => scrollTo('home')}>Home</a>
                  <a href="#about" onClick={() => scrollTo('about')}>About</a>
                  <a href="#projects" onClick={() => scrollTo ('projects')}>Projects</a>
+                 <a href="#contact" onClick={() => scrollTo ('contact')}>Contact</a>
              </div>
             </div>
         </nav>

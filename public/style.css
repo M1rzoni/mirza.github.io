@@ -66,7 +66,6 @@ home-content-container{
     color: white;
  }
 
-
 .button-6 {
     align-items: center;
     background-color: #FFFFFF;
@@ -226,7 +225,8 @@ home-content-container{
 }
 
 .projects{
-    border: 2px solid red;
+    border: none;
+    padding: 10px;
     background-color: #18182e;
     height: auto;
 }
@@ -241,7 +241,28 @@ home-content-container{
     margin-top: 20px;
 }
 
+.contact-container{
+    height: 100vh;
+}
 
+.main-contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-contact-container h1{
+    margin-top: 40px;
+    color: white;
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 1300px){
+
+    .content h1{
+        font-size: 1.5rem;
+    }
+    
+}
 
 
 

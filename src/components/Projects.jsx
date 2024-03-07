@@ -11,17 +11,20 @@ function Projects(){
                        <img alt="todo-app" src="https://www.freecodecamp.org/news/content/images/2020/07/cover-1.png"></img>
                        <h1>TODO APP</h1>
                        <p>some random text</p>
+                       <button className="button-6 new-size-btn">Show more</button>
                      </div>
 
                      <div className="projects">
                        <img alt="todo-app" src="https://www.freecodecamp.org/news/content/images/2020/07/cover-1.png"></img>
                        <h1>TODO APP</h1>
                        <p>some random text</p>
+                       <button className="button-6">Show more</button>
                      </div>
                      <div className="projects">
                        <img alt="todo-app" src="https://www.freecodecamp.org/news/content/images/2020/07/cover-1.png"></img>
                        <h1>TODO APP</h1>
                        <p>some random text</p>
+                       <button className="button-6">Show more</button>
                      </div>
                    </div>
                    
