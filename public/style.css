@@ -53,6 +53,12 @@ body{
     gap: 20rem;
 }
 
+@media screen and (max-width: 430px){
+    .home-container{
+        height: 70vh;
+    }
+}
+
 home-content-container{
     flex-direction: column;
 }
@@ -131,6 +137,12 @@ home-content-container{
     animation: wobble 3s ease-in-out alternate infinite;
 }
 
+@media screen and (max-width: 430px){
+    .icon-container {
+        margin-right: 30rem;
+    }
+}
+
 @keyframes wobble {
     50% {
       border-radius: 950px 550px 350px 950px /
@@ -178,6 +190,14 @@ home-content-container{
     text-align: center;
     margin: 0 auto;
     margin-bottom: 10px;
+}
+
+@media  screen and (max-width: 430px) {
+    
+    .flex-about-container{
+        width: 50vh;
+        margin-top: 20px;
+    }
 }
 
 .flex{
@@ -235,6 +255,13 @@ home-content-container{
     height: auto;
 }
 
+@media screen and (max-width: 430px){
+    .content-projects{
+        display: grid;
+        grid-auto-flow: row;
+    }
+}
+
 .projects h1{
     color: white;
     margin-top: 20px;
@@ -253,6 +280,12 @@ home-content-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 430px){
+    .main-contact-container{
+        margin-top: 41rem;
+    }
 }
 
 .main-contact-container h1{
