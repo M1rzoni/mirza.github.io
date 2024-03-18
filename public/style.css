@@ -13,7 +13,8 @@ body{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(2,27,74);
+background: linear-gradient(90deg, rgba(2,27,74,1) 0%, rgba(8,36,113,1) 51%, rgba(2,82,177,1) 100%);
     overflow-x: hidden;
 }
 
@@ -219,10 +220,15 @@ home-content-container{
 .flex-about-container img{
     height: 60px;
     padding-right: 3rem;
+    object-fit: cover;
+    opacity: 1;
 }
 
 .flex-about-container h1{
     color: white;
+}
+.flex-about-container img {
+    filter: grayscale(10%); /* Primena sive skale na 10% */
 }
 
 .flex-about-container p{
