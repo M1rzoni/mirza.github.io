@@ -1,0 +1,144 @@
+.div-navbar-container {
+    border: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-container a {
+    text-decoration: none;
+    padding: 10px 16px;
+    color: white;
+    margin: 15px 30px 0 0; 
+}
+
+.links-container a:hover{
+    color: red;
+}
+
+.h1-div {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 10px 10rem;
+}
+
+.home-container{
+    display: flex;
+    height: 90vh;
+    place-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+@media screen and (max-width: 630px){
+    .home-container{
+        height: 70vh;
+    }
+}
+
+home-content-container{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 630px) {
+    
+    .home-content-container{
+        display: grid;
+    }
+}
+
+.name{
+    color: red;
+}
+
+.home-container h1 {
+   color: white;
+   margin-bottom: 20px;
+}
+
+.home-container p {
+    color: white;
+ }
+
+.button-6 {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin-top: 1rem;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .button-6:hover {
+    transform: translateY(-1px);
+  }
+  
+  .button-6:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+
+ 
+.icon-container img{
+    display: flex;
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 290px;
+    border-radius: 350px 950px 350px 950px /
+    750px 250px 750px 250px;
+    animation: wobble 3s ease-in-out alternate infinite;
+}
+
+@media screen and (max-width: 630px){
+    .icon-container {
+        margin-right: 30rem;
+    }
+}
+
+@keyframes wobble {
+    50% {
+      border-radius: 950px 550px 350px 950px /
+                     350px 750px 550px 450px;
+    }
+    100% {
+      border-radius: 750px 250px 750px 250px /
+                     250px 750px 250px 750px;
+    }
+  }
