@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background: rgb(2, 27, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 27, 74, 1) 0%,
+    rgba(8, 36, 113, 1) 51%,
+    rgba(2, 82, 177, 1) 100%
+  );
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 1300px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #9cecfb 0%, #65c7f7, #0052d4);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #00c6);
+}

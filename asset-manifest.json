@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mirza.github.io/static/css/main.d278663e.css",
+    "main.js": "/mirza.github.io/static/js/main.fdeb025f.js",
+    "static/media/movie.png": "/mirza.github.io/static/media/movie.f7b36e2153b08f119c45.png",
+    "static/media/weather.png": "/mirza.github.io/static/media/weather.b73c280c35a9c685e007.png",
+    "static/media/todo.png": "/mirza.github.io/static/media/todo.549b580592eb5ac767a5.png",
+    "static/media/Mirza_CV.pdf": "/mirza.github.io/static/media/Mirza_CV.f100121fbb58d9da691c.pdf",
+    "index.html": "/mirza.github.io/index.html",
+    "main.d278663e.css.map": "/mirza.github.io/static/css/main.d278663e.css.map",
+    "main.fdeb025f.js.map": "/mirza.github.io/static/js/main.fdeb025f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d278663e.css",
+    "static/js/main.fdeb025f.js"
+  ]
+}
