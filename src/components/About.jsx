@@ -18,7 +18,7 @@ function About(props) {
   return (
     <div id="about" className="about-container">
       <div className="about-main-container">
-        <div>
+        <div className="text-container">
           <h1>About me</h1>
           <p>
             I am Mirza, a full-stack programmer with expertise covering web

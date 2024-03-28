@@ -37,7 +37,8 @@
 
 @media screen and (max-width: 630px) {
   .home-container {
-    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -47,7 +48,16 @@ home-content-container {
 
 @media screen and (max-width: 630px) {
   .home-content-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 0 !important;
+    margin-top: 15rem;
+    text-align: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 11px;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -117,15 +127,16 @@ home-content-container {
 .icon-container img {
   display: flex;
   border: 3px solid white;
-  border-radius: 50%;
   height: 290px;
+  width: 300px;
+  object-fit: cover;
   border-radius: 350px 950px 350px 950px / 750px 250px 750px 250px;
   animation: wobble 3s ease-in-out alternate infinite;
 }
 
 @media screen and (max-width: 630px) {
   .icon-container {
-    margin-right: 30rem;
+    margin-top: -100px;
   }
 }
 

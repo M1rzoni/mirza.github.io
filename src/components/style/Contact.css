@@ -10,7 +10,16 @@
 
 @media screen and (max-width: 630px) {
   .main-contact-container {
-    margin-top: 51rem;
+    margin-top: 70rem;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 630px) {
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
