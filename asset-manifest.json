@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/mirza.github.io/static/css/main.d278663e.css",
-    "main.js": "/mirza.github.io/static/js/main.fdeb025f.js",
+    "main.css": "/mirza.github.io/static/css/main.84ea361b.css",
+    "main.js": "/mirza.github.io/static/js/main.3eb30cd7.js",
     "static/media/movie.png": "/mirza.github.io/static/media/movie.f7b36e2153b08f119c45.png",
     "static/media/weather.png": "/mirza.github.io/static/media/weather.b73c280c35a9c685e007.png",
     "static/media/todo.png": "/mirza.github.io/static/media/todo.549b580592eb5ac767a5.png",
-    "static/media/Mirza_CV.pdf": "/mirza.github.io/static/media/Mirza_CV.f100121fbb58d9da691c.pdf",
+    "static/media/CV.pdf": "/mirza.github.io/static/media/CV.cc2ed4782fd2a759f72e.pdf",
+    "static/media/own.jpg": "/mirza.github.io/static/media/own.1c07309cc5a53c8d78c0.jpg",
     "index.html": "/mirza.github.io/index.html",
-    "main.d278663e.css.map": "/mirza.github.io/static/css/main.d278663e.css.map",
-    "main.fdeb025f.js.map": "/mirza.github.io/static/js/main.fdeb025f.js.map"
+    "main.84ea361b.css.map": "/mirza.github.io/static/css/main.84ea361b.css.map",
+    "main.3eb30cd7.js.map": "/mirza.github.io/static/js/main.3eb30cd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d278663e.css",
-    "static/js/main.fdeb025f.js"
+    "static/css/main.84ea361b.css",
+    "static/js/main.3eb30cd7.js"
   ]
 }
